@@ -52,7 +52,7 @@ if [ "$1" != "uninstall" ]; then
     fi
 
     echo "Install vlmcsd..."
-    wget -c http://mirrors.tintsoft.com/software/vlmcsd/vlmcsd.server
+    wget -c https://raw.githubusercontent.com/kxjhcmc/Centos-KMS/master/vlmcsd.server
     mv vlmcsd.server /etc/init.d/vlmcsd
     chmod 0755 /etc/init.d/vlmcsd
 
