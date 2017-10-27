@@ -10,7 +10,7 @@
 使用方法：
 使用root用户登录，运行以下命令：
 
-wget -c http://mirrors.tintsoft.com/software/vlmcsd/vlmcsd.sh
+wget -c https://raw.githubusercontent.com/kxjhcmc/Centos-KMS/master/vlmcsd.sh
 chmod +x vlmcsd.sh
 ./vlmcsd.sh 2>&1 | tee vlmcsd.log
 卸载方法：
