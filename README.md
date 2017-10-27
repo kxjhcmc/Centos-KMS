@@ -11,7 +11,9 @@
 使用root用户登录，运行以下命令：
 
 wget -c https://raw.githubusercontent.com/kxjhcmc/Centos-KMS/master/vlmcsd.sh
+
 chmod +x vlmcsd.sh
+
 ./vlmcsd.sh 2>&1 | tee vlmcsd.log
 卸载方法：
 使用 root 用户登录，运行以下命令：
