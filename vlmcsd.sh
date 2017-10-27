@@ -56,7 +56,7 @@ if [ "$1" != "uninstall" ]; then
     mv vlmcsd.server /etc/init.d/vlmcsd
     chmod 0755 /etc/init.d/vlmcsd
 
-    wget -c http://mirrors.tintsoft.com/software/vlmcsd/vlmcsdmulti-x64-musl-static
+    wget -c https://github.com/kxjhcmc/Centos-KMS/raw/master/vlmcsdmulti-x64-musl-static
     mv vlmcsdmulti-x64-musl-static /usr/local/bin/vlmcsdmulti-x64-musl-static
     chmod 0755 /usr/local/bin/vlmcsdmulti-x64-musl-static
 
